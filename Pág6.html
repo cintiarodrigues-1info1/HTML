@@ -1,0 +1,119 @@
+<html>  
+<head>
+<title> Pág6 - Formulários no HTML </title>
+<link href="style.css" rel="stylesheet">
+</head>
+<body bgcolor="#ff1493">
+<hr>
+<h2><a name="inicio"> Formulários no HTML</h2>
+<hr>
+
+<p align="left"> <font size="4"color="white">
+Formulários são normalmente utilizados para integrar a página HTML a algum processamento no lado servidor. 
+Nesses casos, a página envia dados para uma aplicação (Java, PHP, .NET etc.), que os recebe, trata e retorna algum resultado.
+<br>
+<br>
+No HTML, geralmente usamos a tag < form> para delimitar a área na qual se encontram os campos a serem preenchidos pelo usuário,
+ a fim de serem enviados para processamento no back-end (enquanto a página HTML é chamada de front-end da aplicação).
+<br>
+<br>
+Aqui vemos um exemplo de formulário com vários tipos de campos para entrada de dados e um botão para submetê-los ao servidor, e seu código pode ser visto logo abaixo.
+<br>
+<form name="Cadastro de inscrição - aluno" method="post" action="form.php">
+	<hr>
+	<p><font color="black"><b> Cadastro de Inscrição de Alunos - 
+	Curso Técnico Profissionalizante de Informática//Informática para Internet
+	<hr>
+	 
+	 Nome:<input type="text" size="79" name="text name"><p>
+	 Endereço:<input type="text" size="75" name="text end"><p>
+	 </select><p>
+	Cep:<input type="text" name="text cep"><p>
+	 Cidade:<input type="text" size="78" name="text cidad"><p>
+	 Estado:<select name="text estad">
+			<option value="estado" selected disabled>Selecione</option>
+		            <option value="estado">AC</option>
+                    <option value="estado">AL</option>
+                    <option value="estado">AM</option>
+                    <option value="estado">AP</option>
+                    <option value="estado">BA</option>
+                    <option value="estado">CE</option>
+                    <option value="estado">DF</option>
+                    <option value="estado">ES</option>
+                    <option value="estado">GO</option>
+                    <option value="estado">MA</option>
+                    <option value="estado">MT</option>
+                    <option value="estado">MS</option>
+                    <option value="estado">MG</option>
+                    <option value="estado">PA</option>
+                    <option value="estado">PB</option>
+                    <option value="estado">PE</option>
+                    <option value="estado">PR</option>
+                    <option value="estado">PI</option>
+                    <option value="estado">RN</option>
+                    <option value="estado">RJ</option>
+                    <option value="estado">RO</option>
+                    <option value="estado">RR</option>
+                    <option value="estado">RS</option>
+                    <option value="estado">SC</option>
+                    <option value="estado">SE</option>
+                    <option value="estado">SP</option>
+                    <option value="estado">TO</option>
+                    </Select></p>
+		<P>Profissão
+                    <select value="profissao" id="profissao">
+					<option value="profissao">Selecione</option>
+                    <option value="profissao">FrontEnd</option>
+                    <option value="profissao">BackEnd</option>
+                    <option value="profissao">Supervisor</option>
+                    <option value="profissao">Arctet Enginer</option>
+                    <option value="profissao">Follstack</option>
+                    <option value="profissao">Diretor de projetos</option>
+                    </select>
+                    </P>
+		            <p>Conhece alguma linguagem de programação?
+                    <input type="radio" value="sim" name="resposta">Sim
+                    <input type="radio" value="nao" name="resposta">Não
+                  </p>
+                <p>Caso positivo, quais liguagens:<br>
+                   <textarea rows="4" cols="65" name="text linguagem"> </textarea><p>
+                </p>
+	Hobbys:
+		<input type="checkbox" name="chk1">Leitura
+		<input type="checkbox" name="chk1">Futebol
+		<input type="checkbox" name="chk1"> Culinária 
+		<input type="checkbox" name="chk1">Caminhar
+		<input type="checkbox" name="chk1">TV 
+		<input type="checkbox" name="chk1">Cinema<p>
+	 Cursos pretendidos:
+		<input type="checkbox" name="chk1">Desenvolvimento de Software
+	 	<input type="checkbox" name="chk1">Rede de Computadores
+		<input type="checkbox" name="chk1">Infra-Estrutura
+		<input type="checkbox" name="chk1">Robótica Básica<p>
+		<input type="submit" value="ENVIAR">
+	<input type="reset" value="LIMPAR"
+	 
+	 </input>
+	 </form>
+	 <br>
+	 <br>
+	 <h3><font color="white">CÓDIGO DO FORMULÁRIO ACIMA</h3>
+	 <br>
+	 <img src="Pág6 - Tabela1.png" alt="Texto alternativo" title="Avatar" />
+	 <img src="Pág6 - Tabela2.png" alt="Texto alternativo" title="Avatar" />
+<br></b>	 
+<font size="3">
+<a class="corlink" href="index.html">Pág1 - O que é HTML?</a><br>
+<a class="corlink" href="Pág2.html">Pág2 - Lista principais tags</a><br>
+<a class="corlink" href="Pág3.html">Pág3 - Lista significado tags HTML</a><br>
+<a class="corlink" href="Pág4.html">Pág4 - Imagens no HTML</a><br>
+<a class="corlink" href="Pág5.html">Pág5 - Tabelas no HTML</a><br>
+<a class="corlink" href="Pág7.html">Pág7 - Referências</a><br>
+<a href="#inicio">Topo</a>
+
+	 <footer><font size="4"color="white">
+        <p>&copy;Cíntia Rodrigues - 1INFO1 - 2022/2</p>
+    </footer>
+	</body>
+
+</html>
